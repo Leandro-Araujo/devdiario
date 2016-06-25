@@ -1,1 +1,23 @@
+#Node.js
 
+##Sumário
+
+##### 25/06/2016
+
+### Controlar funções assicronas
+
+Muitas vezes vejo como um problema para quem está iniciando com node.js o controle de funções assícronas, bom principalmente quando há variáveis para configurar a função assícronas e muitas vezes funções que necessitam do retorno de operações I/O, bom, e como resolver isso?
+
+A forma mais corretar de trabalhar com essas funções são os callbacks, mas algumas vezes as pessoas necessitam trabalhar de outra maneira, por isso apresento aqui este pequeno artigo.
+
+#### process.nextTick()
+
+Esta função é nativa do node.js, ela é bastante útil para que você estabeleça variáveis e constantes de configuração, e ao chamar esta função você escreva o [process.nextTick()](https://nodejs.org/dist/latest-v6.x/docs/api/process.html#process_process_nexttick_callback_arg) com a função assícrona dentro de seu callback. Ocorre que o que existir dentro no nextTick será executado por último, depois que todos os ócdigos sicronos sejam executados.
+
+#### Promise
+
+[Promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) é um objeto padrão do ES2015(dependendo da versão do node.js que você estiver utilizando esta propriedade pode não estar possível de ser usado) serve para controlar as funções assícronas(elas continuarão sendo assícronas, mas obedecerão alguma ordem) serve para você obter respostas de alguma função assícronas e executar outro objeto logo após a última acabar.
+
+#### Async
+
+[Async](https://github.com/caolan/async) é um módulo que trás um conjunto de ferramentas para você trabalhar com códigos assícronos, parecido em parte com Promise, pois permite que você 'diga' qual código deve ser executado primeiro e também permite que você capture valores das funções assícronas, além disso contém uma série de ferramentas. Ele não é nativo, então baixe no [npm](https://www.npmjs.com/)
