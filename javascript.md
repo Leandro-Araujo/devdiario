@@ -1,6 +1,7 @@
-
-
 #Javascript
+
+##Sumário
+[Dica com objetos](https://github.com/Leandro-Araujo/devdiario/blob/master/javascript.md#dica-com-objetos)
 
 ##### 25/06/2016
 
