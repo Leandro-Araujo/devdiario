@@ -2,6 +2,11 @@
 
 ##Sumário
 
+[Controlar funções assicronas](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#controlar-fun%C3%A7%C3%B5es-assicronas)
+    [process.nextTick()](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#processnexttick)
+    [Promise](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#promise)
+    [Async](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#async)
+
 ##### 25/06/2016
 
 ### Controlar funções assicronas
