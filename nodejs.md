@@ -17,7 +17,7 @@ A forma mais corretar de trabalhar com essas funções são os callbacks, mas al
 
 #### process.nextTick()
 
-Esta função é nativa do node.js, ela é bastante útil para que você estabeleça variáveis e constantes de configuração, para isto basta chamar esta função [process.nextTick()](https://nodejs.org/dist/latest-v6.x/docs/api/process.html#process_process_nexttick_callback_arg) com a função assícrona dentro de seu callback. Ocorre que o que existir dentro no nextTick será executado por último, depois que todos os ócdigos sicronos sejam executados.
+[process.nextTick()](https://nodejs.org/dist/latest-v6.x/docs/api/process.html#process_process_nexttick_callback_arg) é nativa do node.js, com ela você pode fazer com que qualquer código seja chamado após o loop pertinente a ele, seus códigos serão executados após todos os outros sícronos, com isso você pode até mesmo simular processamento assícrono, dando a seus callbacks e códigos flexibilidade maior, evitando transtornos.
 
 #### Promise
 
