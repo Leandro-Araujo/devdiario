@@ -21,7 +21,7 @@ Esta função é nativa do node.js, ela é bastante útil para que você estabel
 
 #### Promise
 
-[Promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) é um objeto padrão do ES2015(dependendo da versão do node.js que você estiver utilizando esta propriedade pode não estar possível de ser usado) serve para controlar as funções assícronas(elas continuarão sendo assícronas, mas obedecerão alguma ordem) serve para você obter respostas de alguma função assícronas e executar outro objeto logo após a última acabar.
+[Promise](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise) é um objeto padrão do ES2015(dependendo da versão do node.js que você estiver utilizando esta propriedade pode não estar disponível) serve para controlar as funções assícronas(elas continuarão sendo assícronas, mas obedecerão alguma ordem) serve para você obter respostas de alguma função assícronas e executar outro objeto logo após a última acabar.
 
 #### Async
 
