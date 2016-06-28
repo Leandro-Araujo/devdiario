@@ -29,3 +29,25 @@ A forma mais corretar de trabalhar com essas funções são os callbacks, mas al
 #### Async
 
 [Async](https://github.com/caolan/async) é um módulo que trás um conjunto de ferramentas para você trabalhar com códigos assícronos, parecido em parte com Promise, pois permite que você 'diga' qual código deve ser executado primeiro e também permite que você capture valores das funções assícronas, além disso contém uma série de ferramentas. Ele não é nativo, então baixe no [npm](https://www.npmjs.com/)
+
+
+#### 28/06/2016
+
+### npm
+
+Segue os códigos npm que eu mais costumo usar:
+
+```
+npm init
+```
+npm init é utilizado para que você possa criar sua aplicação, iniciando com a configuração do package.json, recomendo bastante sua utilização, ele vai pedir para que você insira informações que ele pedir, tudo por terminal. Sem o package.json configurado você provavelmente terá problemas com algum módulo que você tentar importar.
+
+```
+npm install
+```
+Este código é muito útil quando você estiver testando um app de terceiros, por exemplo, ou baixar seus próprios apps de um repositório(recomendo vocês utilizarem o *gitignore*), isso porque ele instala todos os módulos que estejam descritos no package.json(é vantajoso você apagar todos os módulos de sua pasta *node_modules* principalmente porque sua aplicação ocupará menos espaço no seu repositório).
+
+```
+npm install module-name --save
+```
+Este código é bastante útil porque além de você colocar seus módulos disponíveis no *node_modules* você o coloca em seu package.json, atenção *module-name* é apenas um exemplo poderia ser *mongoose* e etc.
