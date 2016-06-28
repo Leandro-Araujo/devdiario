@@ -1,5 +1,10 @@
 #Vue.js
 
+## Sumario
+
+[Acesso ao servidor por Ajax](https://github.com/Leandro-Araujo/devdiario/blob/master/vuejs.md#acesso-ao-servidor-por-ajax)
+
+[Rotear web app no vue.js](https://github.com/Leandro-Araujo/devdiario/blob/master/vuejs.md#rotear-web-app-no-vuejs)
 
 ##### 26/06/2016
 
