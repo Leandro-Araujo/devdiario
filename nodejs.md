@@ -42,7 +42,7 @@ Segue os códigos npm que eu mais costumo usar:
 ```
 npm init
 ```
-npm init é utilizado para que você possa criar sua aplicação, iniciando com a configuração do package.json, recomendo bastante sua utilização, ele vai pedir para que você insira informações que ele pedir, tudo por terminal. Sem o package.json configurado você provavelmente terá problemas com algum módulo que você tentar importar.
+npm init é utilizado para que você possa criar sua aplicação, iniciando com a configuração do package.json, recomendo bastante sua utilização, ele vai pedir para que você insira informações que ele pedir, tudo por terminal. Sem o package.json configurado você provavelmente terá problemas com algum módulo que você tentar instalar.
 
 ```
 npm install
