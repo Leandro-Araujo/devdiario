@@ -10,6 +10,8 @@
 
 - [Async](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#async)
 
+[npm](https://github.com/Leandro-Araujo/devdiario/blob/master/nodejs.md#npm)
+
 ##### 25/06/2016
 
 ### Controlar funções assicronas
@@ -31,7 +33,7 @@ A forma mais corretar de trabalhar com essas funções são os callbacks, mas al
 [Async](https://github.com/caolan/async) é um módulo que trás um conjunto de ferramentas para você trabalhar com códigos assícronos, parecido em parte com Promise, pois permite que você 'diga' qual código deve ser executado primeiro e também permite que você capture valores das funções assícronas, além disso contém uma série de ferramentas. Ele não é nativo, então baixe no [npm](https://www.npmjs.com/)
 
 
-#### 28/06/2016
+##### 28/06/2016
 
 ### npm
 
