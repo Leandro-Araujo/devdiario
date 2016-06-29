@@ -1,5 +1,9 @@
 #Express.js
 
+##Sumario
+
+[Introdução a middleware](https://github.com/Leandro-Araujo/devdiario/blob/master/expressjs.md#introdu%C3%A7%C3%A3o-a-middleware)
+
 ##### 28/06/2016
 
 ###Introdução a middleware
@@ -39,4 +43,4 @@ app.use(function(req, res, next){
 });
 [...]
 ```
-Executando este código será percebido que primeiramente o terminal mostrará *undefined* e depois mostrará *qualquervalor*, isso ocorre porque todos os middlewares compartilham os valores 'req' e 'res' não só isso, como este recurso é passado de middleware para middleware em ordem do de cima para o debaixo, então cuidado! Ordem é extremamente importante.
+Executando este código será percebido que primeiramente o terminal mostrará *undefined* e depois mostrará *qualquervalor*, isso ocorre porque todos os middlewares compartilham os valores 'req' e 'res' não só isso, como também este recurso é passado de middleware para middleware em ordem do de cima para o debaixo, então cuidado! Ordem é extremamente importante.
