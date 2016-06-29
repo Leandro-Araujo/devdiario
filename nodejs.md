@@ -55,7 +55,7 @@ npm install module-name --save
 Este código é bastante útil porque além de você colocar seus módulos disponíveis no *node_modules* você o coloca em seu package.json, atenção *module-name* é apenas um exemplo poderia ser *mongoose* e etc.
 
 ```
-npm install module-name -g
+npm install -g module-name
 ```
 
 Este comando salva o módulo globalmente, ou seja ele não está atrelado somente a algum projeto, mas sim a todo o computador, isso significa também que o módulodo pode ser chamado como cli, é o caso do *express*, *nodemon* entre outros.
