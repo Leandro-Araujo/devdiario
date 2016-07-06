@@ -99,3 +99,16 @@ $(function(){
 });
 ```
 Isto ocorre porque só existe uma instância do objeto, é bastante útil para esse tipo de comportamento, podendo ser usado em sistemas de 'carrinhos' por exemplo.
+
+##### 06/07/2016
+
+###Erros
+
+Existem várias formas de se trabalhar com erros, mas vamor falar dos blocos *try* e *catch*. Vamos começar com um pequeno código que vai acusar um erro.
+
+```javascript
+const a = 1;
+a = 2;
+```
+
+Bom, se você não sabe o que é *const*, ela é uma palavra reservada para constantes, e como sabemos constantes quando são declaradas e tem seu valor setado, este valor não pode ser alterado. Gerando assim um erro.
