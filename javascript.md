@@ -112,3 +112,32 @@ a = 2;
 ```
 
 Bom, se você não sabe o que é *const*, ela é uma palavra reservada para constantes, e como sabemos constantes quando são declaradas e tem seu valor setado, este valor não pode ser alterado. Gerando assim um erro.
+
+A grande pergunta é para que serve o *try - catche*? Bom, com ele você não precisa trava os códigos quando o node.js identificar um erro, você pode também tratar todos os erros que acontecem como fossem um só, dando um tratamento geral e interessante para os seus códigos.
+
+Aqui está o código base para o tratamento de erro:
+
+```javascript
+try {
+    // Aqui você vai colocar a execução normal dos seus codigos
+}catch(err){
+    // Aqui voce vai colocar seus códigos caso haja algum erro
+}
+```
+
+Vamos ver agora como implementar nosso erro com constantes e algumas outras coisas:
+
+```javascript
+try {
+    const a = 1;
+    a = 2;
+    let a = 3;
+    let a = 4;
+    console.log('oi');
+} catch(err){
+    console.log('Oops seu código tem varios erros, como constantes e lets declarados de forma errada');
+    // Você poderia enviar algum evento para alguma peça chave no seu desenvolvimento, por exemplo
+}
+```
+
+Todo o código dentro do try não será executado após identificado o primeiro erro. Mas ele vai verificar outros erros, caso você queira identificar o último erro, é só dar console.log no *err*
