@@ -125,19 +125,14 @@ try {
 }
 ```
 
-Vamos ver agora como implementar nosso erro com constantes e algumas outras coisas:
+Vamos ver agora como implementar nosso erro com constantes:
 
 ```javascript
 try {
     const a = 1;
     a = 2;
-    let a = 3;
-    let a = 4;
-    console.log('oi');
 } catch(err){
     console.log('Oops seu código tem varios erros, como constantes e lets declarados de forma errada');
     // Você poderia enviar algum evento para alguma peça chave no seu desenvolvimento, por exemplo
 }
 ```
-
-Todo o código dentro do try não será executado após identificado o primeiro erro. Mas ele vai verificar outros erros, caso você queira identificar o último erro, é só dar console.log no *err*
